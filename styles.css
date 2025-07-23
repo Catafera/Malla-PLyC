@@ -1,39 +1,47 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  margin: 0;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  color: #333;
-}
-
-.semestre {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background: #fff;
-  padding: 16px;
-  margin-bottom: 20px;
-}
-
-.semestre h2 {
-  margin-top: 0;
-  color: #444;
-}
-
-.ramo {
-  margin: 8px 0;
-  padding: 8px;
-  border-radius: 4px;
-  transition: background-color 0.2s;
-}
-
-.ramo:hover {
-  background-color: #f9f9f9;
-}
-
-.ramo.disabled {
-  opacity: 0.5;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Diseño Visual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="titulo">Malla de Diseño Visual</h1>
+  <div class="malla">
+    <!-- 8 semestres -->
+    <div class="fila">
+      <div class="semestre">1º SEMESTRE</div>
+      <div class="semestre">2º SEMESTRE</div>
+      <div class="semestre">3º SEMESTRE</div>
+      <div class="semestre">4º SEMESTRE</div>
+      <div class="semestre">5º SEMESTRE</div>
+      <div class="semestre">6º SEMESTRE</div>
+      <div class="semestre">7º SEMESTRE</div>
+      <div class="semestre">8º SEMESTRE</div>
+    </div>
+    <!-- Aquí irán los ramos por filas -->
+    <div class="fila">
+      <div class="ramo">Taller Inicial</div>
+      <div class="ramo">Taller Comunicación Visual</div>
+      <div class="ramo">Taller Diseño de Identidad</div>
+      <div class="ramo">Taller Diseño Editorial y Tipográfico</div>
+      <div class="ramo">Taller Profesional I</div>
+      <div class="ramo">Taller Profesional II</div>
+      <div class="ramo">Taller Anteproyecto</div>
+      <div class="ramo">Taller Final</div>
+    </div>
+    <div class="fila">
+      <div class="ramo">Forma, Color y Espacio</div>
+      <div class="ramo">Diseño y Entornos Digitales</div>
+      <div class="ramo">Gráfica Urbana y del Entorno</div>
+      <div class="ramo">Afiche y Medios Impresos</div>
+      <div class="ramo">Publicidad y Branding</div>
+      <div class="ramo">Visualización de la Información</div>
+      <div class="ramo">Mercado y Proyectos</div>
+      <div class="ramo"></div>
+    </div>
+    <!-- Puedes continuar con más filas -->
+  </div>
+</body>
+</html>
