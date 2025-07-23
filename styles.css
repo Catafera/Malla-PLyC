@@ -1,4 +1,4 @@
-/* Fondo pastel rosado */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -6,15 +6,13 @@ body {
   color: #333;
 }
 
-/* Título */
 h1 {
   text-align: center;
-  padding: 20px 10px;
+  padding: 20px;
   font-size: 28px;
   color: #444;
 }
 
-/* Contenedor general en formato grid */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -22,15 +20,13 @@ h1 {
   padding: 20px;
 }
 
-/* Cada columna de semestre */
 .semestre {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 15px;
 }
 
-/* Cabecera del semestre */
 .semestre-header {
   font-weight: bold;
   text-align: center;
@@ -39,7 +35,6 @@ h1 {
   color: #880e4f;
 }
 
-/* Tarjetas de ramos */
 .ramo {
   background-color: #fff9fa;
   border: 1px solid #d48b8b;
@@ -50,7 +45,6 @@ h1 {
   transition: background-color 0.3s, opacity 0.3s;
 }
 
-/* Efecto al hacer clic: tachado + opacidad */
 .ramo.completado {
   text-decoration: line-through;
   opacity: 0.5;
